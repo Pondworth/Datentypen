@@ -40,8 +40,11 @@ namespace Datentypen
 
             //Andere Datentypen
             //Bool(Boolean)     True oder False Ausgabe
+            bool wahrheitswert = true;
             //String            Textwerte (Bsp: "Hallo Welt")
+            string text = "Hallo Welt!";
             //Char              Einzelne Textzeichen (Bsp. ,B')
+            char character = 'a';
 
             //Console.WriteLine(Datentyp.MinValue);
             //Console.WriteLine(Datentyp.MaxValue);
@@ -57,6 +60,9 @@ namespace Datentypen
             Console.WriteLine(zahl9);
             Console.WriteLine(zahl10);
             Console.WriteLine(zahl11);
+            Console.WriteLine(wahrheitswert);
+            Console.WriteLine(text);
+            Console.WriteLine(character);
 
             Console.ReadKey();
         }
