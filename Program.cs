@@ -31,9 +31,12 @@ namespace Datentypen
             ulong zahl8 = 10234223424423423424;
 
             //Fließkommazahlen
-            //float             -3,402823E+38 - 3,402823E+39 4Bytes
+            //float             -3,402823E+38 - 3,402823E+39 4Bytes (muss mit Suffix angegeben werden, damit Visual weiss, das es kein Double ist)
+            float zahl9 = 2.25f;
             //double            -1,79769313486232E+308 - 1,79769313486232E+308 8Bytes
+            double zahl10 = 33.4234;
             //decimal           -79228162514264337593543950335 - 79228162514264337593543950335 16Bytes
+            decimal zahl11 = 32.43432m;
 
             //Andere Datentypen
             //Bool(Boolean)     True oder False Ausgabe
@@ -51,6 +54,9 @@ namespace Datentypen
             Console.WriteLine(zahl6);
             Console.WriteLine(zahl7);
             Console.WriteLine(zahl8);
+            Console.WriteLine(zahl9);
+            Console.WriteLine(zahl10);
+            Console.WriteLine(zahl11);
 
             Console.ReadKey();
         }
